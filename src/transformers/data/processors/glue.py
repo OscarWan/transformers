@@ -594,5 +594,5 @@ glue_output_modes = {
     "qnli": "classification",
     "rte": "classification",
     "wnli": "classification",
-    "boolq": "classification"
+    "boolq": "classification",
 }
