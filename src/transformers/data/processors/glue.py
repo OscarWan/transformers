@@ -528,6 +528,7 @@ class BoolqProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
+        data = []
         with open(os.path.join(data_dir, "train.jsonl"), 'r') as f:
             for line in f:
                 data.append(json.loads(line.strip('\n')))
